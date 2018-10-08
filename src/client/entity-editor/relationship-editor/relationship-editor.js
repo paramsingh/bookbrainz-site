@@ -19,12 +19,22 @@
 // @flow
 
 import {
-	Button, Col, ControlLabel, FormGroup, Modal, ProgressBar, Row
+	Button,
+	Col,
+	ControlLabel,
+	FormGroup,
+	Modal,
+	ProgressBar,
+	Row
 } from 'react-bootstrap';
 import type {
-	Entity, EntityType, RelationshipType,
-	RelationshipWithLabel, Relationship as _Relationship
+	Entity,
+	EntityType,
+	RelationshipType,
+	RelationshipWithLabel,
+	Relationship as _Relationship
 } from './types';
+
 import EntitySearchField from '../common/entity-search-field';
 import React from 'react';
 import ReactSelect from 'react-select';
@@ -298,8 +308,8 @@ class RelationshipModal
 							{baseEntity.type}
 							{' '}and other entities.
 						</strong>
-						{' '}For example, you can link a creator
-						to a work as an author, or a work to another work
+						{' '}For example, you can link an author
+						to a work, or a work to another work
 						to show translation or derivation.
 					</p>
 					<hr/>
