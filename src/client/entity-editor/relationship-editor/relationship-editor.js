@@ -249,7 +249,7 @@ class RelationshipModal
 		return (
 			<EntitySearchField
 				cache={false}
-				instanceId="publication"
+				instanceId="editionGroup"
 				label={label}
 				name="entity"
 				type={types.map(_.toLower)}
